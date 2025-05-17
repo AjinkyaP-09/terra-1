@@ -2,12 +2,12 @@ variable "myregion" {
   type    = string
   default = "ap-south-1"
 }
-# variable "myaccess_key" {
-#   type = string
-# }
-# variable "secret_key" {
-#   type = string
-# }
+variable "myaccess_key" {
+  type = string
+}
+variable "secret_key" {
+  type = string
+}
 variable "ami_id" {
   type = string
 }

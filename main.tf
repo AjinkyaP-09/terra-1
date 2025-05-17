@@ -10,9 +10,9 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = var.myregion
-  #   access_key = var.myaccess_key
-  #   secret_key = var.secret_key
+  region     = var.myregion
+  access_key = var.myaccess_key
+  secret_key = var.secret_key
 }
 resource "aws_instance" "myec2" {
   ami                    = var.ami_id
